@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgb(254, 254, 254);
+}
+
+nav{
+    background-color: rgb(188, 185, 185);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 13.5rem;
+    
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+li :hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.7s;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(161, 2, 2);
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 15px;
+    color: red;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+    color: black; 
+    margin-left: 10px;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.apartment-A{
+    color: black;
+    margin-right: 20rem;
+}
+
+.return{
+    margin-top: 10px;
+    margin-left: 75rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ .return:hover{
+    color: red;
+    background-color: blueviolet;
+    transition-duration: 0.6s;
+}
+
+.button:hover{
+    color: white;
+    background-color: blueviolet;
+    transition-duration: 0.6s;
+}
+
+
+.roll-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40rem;
+}
+.apartment-B{
+    color: black;
+    /* margin-top: 45px; */
+    margin-right: 40rem;
+    /* background-color: pink; */
+}
